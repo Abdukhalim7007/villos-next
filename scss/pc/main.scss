@@ -2,6 +2,8 @@
 @import '../variables.scss';
 @import './general.scss';
 @import './homepage/homepage.scss';
+@import './homepage/filterBar.scss';
+@import './homepage/featureIcons.scss';
 
 body {
 	-ms-overflow-style: none; /* for Internet Explorer, Edge */

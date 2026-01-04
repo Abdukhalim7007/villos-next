@@ -1,0 +1,38 @@
+#pc-wrap {
+	.home-page {
+		.feature-icons {
+			position: relative;
+			width: 100%;
+
+			.feature-icons__item {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.feature-icons__icon {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin-bottom: 16px;
+
+				svg {
+					font-size: 48px;
+					color: #1646C1;
+				}
+			}
+
+			.feature-icons__title {
+				font-weight: 600;
+				margin-bottom: 8px;
+				text-align: center;
+			}
+
+			.feature-icons__description {
+				text-align: center;
+				color: #616161;
+			}
+		}
+	}
+}
+

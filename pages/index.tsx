@@ -2,6 +2,8 @@ import { NextPage } from 'next';
 import Head from 'next/head';
 import { Stack } from '@mui/material';
 import Hero from '../libs/components/homepage/Hero';
+import FilterBar from '../libs/components/homepage/FilterBar';
+import FeatureIcons from '../libs/components/homepage/FeatureIcons';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 export const getStaticProps = async ({ locale }: any) => ({
@@ -19,6 +21,8 @@ const Home: NextPage = () => {
 			</Head>
 			<Stack className="home-page">
 				<Hero />
+				<FilterBar />
+				<FeatureIcons />
 			</Stack>
 		</>
 	);

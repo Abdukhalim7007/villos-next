@@ -1,0 +1,35 @@
+#pc-wrap {
+	.home-page {
+		.filter-bar {
+			position: relative;
+			width: 100%;
+			z-index: 10;
+
+			.filter-bar__form {
+				background-color: #fff;
+				border-radius: 8px;
+				box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+			}
+
+			.filter-bar__location,
+			.filter-bar__checkin,
+			.filter-bar__checkout {
+				.MuiInputBase-root {
+					background-color: #fff;
+				}
+			}
+
+			.filter-bar__guests {
+				.MuiInputBase-root {
+					background-color: #fff;
+				}
+			}
+
+			.filter-bar__submit {
+				text-transform: none;
+				font-weight: 600;
+			}
+		}
+	}
+}
+
