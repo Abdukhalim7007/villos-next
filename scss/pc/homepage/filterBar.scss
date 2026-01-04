@@ -4,32 +4,33 @@
 			position: relative;
 			width: 100%;
 			z-index: 10;
+			margin-top: 0;
+			margin-bottom: 0;
 
 			.filter-bar__form {
 				background-color: #fff;
 				border-radius: 8px;
-				box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-			}
-
-			.filter-bar__location,
-			.filter-bar__checkin,
-			.filter-bar__checkout {
-				.MuiInputBase-root {
-					background-color: #fff;
-				}
-			}
-
-			.filter-bar__guests {
-				.MuiInputBase-root {
-					background-color: #fff;
-				}
+				box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+				margin-bottom: 0;
 			}
 
 			.filter-bar__submit {
-				text-transform: none;
+				background-color: #1646C1;
+				color: #fff;
 				font-weight: 600;
+				text-transform: none;
+				border-radius: 0;
+
+				&:hover {
+					background-color: #1239a0;
+				}
+			}
+		}
+
+		.hero-section {
+			.filter-bar {
+				margin-top: 0;
 			}
 		}
 	}
 }
-

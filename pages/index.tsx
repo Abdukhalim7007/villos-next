@@ -20,8 +20,9 @@ const Home: NextPage = () => {
 				<meta name="description" content="Discover luxury villas for sale and rent" />
 			</Head>
 			<Stack className="home-page">
-				<Hero />
-				<FilterBar />
+				<Hero>
+					<FilterBar />
+				</Hero>
 				<FeatureIcons />
 			</Stack>
 		</>
